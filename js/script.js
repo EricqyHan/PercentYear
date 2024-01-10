@@ -30,3 +30,26 @@ document.querySelector(".daysLeft").innerText = daysLeft;
 //     console.log(`${year} is not a leap year`);
 //   }
 // };
+
+const quotes = [
+  "There are three ways to ultimate success: The first way is to be kind. The second way is to be kind. The third way is to be kind",
+  "You are special. You’re special to me. There’s only one in this wonderful world.",
+  "It's good to be curious about many things.",
+  "Who you are inside is what helps you make and do everything in life.",
+  "When we can talk about our feelings, they become less overwhelming, less upsetting and less scary.",
+  "Imagining something may be the first step in making it happen, but it takes the real time and real efforts of real people to learn things, make things, turn thoughts into deeds or visions into inventions.",
+];
+
+function quoteRandom() {
+  let random = Math.floor(Math.random() * quotes.length);
+  console.log(random);
+  let result = quotes[random];
+  console.log(result);
+  return result;
+}
+
+console.log(quoteRandom());
+
+const asdf = quoteRandom();
+
+document.getElementById("demo").innerHTML = asdf;
