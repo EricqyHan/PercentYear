@@ -6,6 +6,7 @@
 * {
   box-sizing: border-box;
   background-color: #34669f;
+  font-family: "Ubuntu", sans-serif;
 }
 
 /******************************************
@@ -20,7 +21,13 @@ h1 {
   color: #fff6d9;
 }
 
-h2 {
+h2,
+h3 {
   text-align: center;
   color: #f0b87f;
+}
+
+#demo {
+  font-size: 25px;
+  font-family: "Permanent Marker", cursive;
 }
