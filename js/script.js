@@ -32,12 +32,14 @@ document.querySelector(".daysLeft").innerText = daysLeft;
 // };
 
 const quotes = [
-  "There are three ways to ultimate success: The first way is to be kind. The second way is to be kind. The third way is to be kind",
-  "You are special. You’re special to me. There’s only one in this wonderful world.",
-  "It's good to be curious about many things.",
-  "Who you are inside is what helps you make and do everything in life.",
-  "When we can talk about our feelings, they become less overwhelming, less upsetting and less scary.",
-  "Imagining something may be the first step in making it happen, but it takes the real time and real efforts of real people to learn things, make things, turn thoughts into deeds or visions into inventions.",
+  `I hope you're proud of yourself for the times you've said "yes," when all it meant was extra work for you and was seemingly helpful only to someone else.`,
+  `It's good to be curious about many things.`,
+  `Imagining something may be the first step in making it happen, but it takes the real time and real efforts of real people to learn things, make things, turn thoughts into deeds or visions into inventions.`,
+  `Often out of periods of losing come the greatest strivings toward a new winning streak.`,
+  `There are three ways to ultimate success: The first way is to be kind.The second way is to be kind.The third way is to be kind`,
+  `Who you are inside is what helps you make and do everything in life.`,
+  `When we can talk about our feelings, they become less overwhelming, less upsetting and less scary.`,
+  `You are special. You’re special to me. There’s only one in this wonderful world.`,
 ];
 
 function quoteRandom() {
@@ -50,6 +52,6 @@ function quoteRandom() {
 
 console.log(quoteRandom());
 
-const asdf = quoteRandom();
+const misterRogerQuote = quoteRandom();
 
-document.getElementById("demo").innerHTML = asdf;
+document.getElementById("randomQuote").innerHTML = misterRogerQuote;
