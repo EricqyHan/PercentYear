@@ -1,5 +1,5 @@
-var relativeTime = require("dayjs/plugin/relativeTime");
-dayjs.extend(relativeTime);
+const dayjs = require("dayjs");
+dayjs().format();
 
 dayjs().from(dayjs("1990-01-01"));
 dayjs().from(dayjs("1990-01-01"), true);

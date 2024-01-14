@@ -31,3 +31,18 @@ h3 {
   font-size: 25px;
   font-family: "Permanent Marker", cursive;
 }
+
+.bear {
+  background-color: rgb(1, 24, 66);
+  border: 5px solid black;
+  width: 400px;
+  height: 100px;
+  margin: 0 auto;
+}
+
+.bear-text {
+  background-color: rgb(1, 24, 66);
+  color: white;
+  margin: 10% auto;
+  font-family: Helvetica, Arial, sans-serif;
+}
