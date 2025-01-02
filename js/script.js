@@ -1,7 +1,12 @@
 let now = new Date();
-let start = new Date(now.getFullYear(), 0, 0);
-console.log("year");
+let start = new Date(now.getFullYear(), 0);
+const thisYear = start.getFullYear()
+console.log(start)
+console.log(thisYear)
+console.log(start.getFullYear());
+document.querySelector(".year").innerText = thisYear;
 console.log(start);
+
 let diff = now - start;
 let oneDay = 1000 * 60 * 60 * 24;
 let day = Math.floor(diff / oneDay);
