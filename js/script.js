@@ -18,8 +18,9 @@ let percentage = ((100 / 366) * day).toFixed(2);
 console.log(percentage);
 document.querySelector(".completion").innerText = percentage;
 
-let daysLeft = 366 - day;
+let daysLeft = 365 - day;
 document.querySelector(".daysLeft").innerText = daysLeft;
+console.log(daysLeft)
 
 // let year = new Date().getFullYear();
 
