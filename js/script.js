@@ -9,12 +9,12 @@ console.log(start);
 
 let diff = now - start;
 let oneDay = 1000 * 60 * 60 * 24;
-let day = Math.floor(diff / oneDay);
+let day = Math.floor(diff / oneDay)+1;
 console.log("Day of year: " + day);
 
 document.querySelector(".day").innerText = day;
 
-let percentage = ((100 / 366) * day).toFixed(2);
+let percentage = ((100 / 365) * day).toFixed(2);
 console.log(percentage);
 document.querySelector(".completion").innerText = percentage;
 
